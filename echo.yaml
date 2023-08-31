@@ -21,6 +21,7 @@ spec:
   strategy:
     type: Recreate
   replicas: 1
+  revisionHistoryLimit: 0
   template:
     metadata:
       labels:
